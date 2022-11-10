@@ -15,17 +15,29 @@ namespace Unit04.Game.Casting
     public class Score
     {
         private int scoreBoard = 0;
+
+        /// <summary>
+        /// Creates a new instance of the Score
+        /// </summary>
         public Score()
         {
 
         }
 
+        /// <summary>
+        /// Adds the possitive or negative value(depending on what the value is) to the scoreboard.
+        /// </summary>
+        /// <param name="value"></param>
         public void SetScore(int value)
         {
             scoreBoard += value;
             //return scoreBoard;
         }
 
+        /// <summary>
+        /// Sends the scoreBoard value to the Director
+        /// </summary>
+        /// <returns></returns>
         public string GetScore()
         {
             return scoreBoard.ToString();

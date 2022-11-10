@@ -1,8 +1,5 @@
 # Robot Finds Kitten
-Simon Carless once described robotfindskitten as "less a game and more a way of 
-life ... It's fun to wander around until you find a kitten, at which point you feel 
-happy and can start again". I don't think I could have said it better myself!
-
+Greed is a game where you collect gems "*" and avoid bombs "0". If you hit the bombs your score goes down by one. If you hit the gems your score goes up by one.
 ---
 ## Getting Started
 Make sure you have dotnet 6.0 or newer installed on your machine. Open 

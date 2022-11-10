@@ -56,24 +56,24 @@ namespace Unit04.Game.Casting{
         /// <summary>
         /// Checks if actor is a bomb or not
         /// </summary>
-        public void IsBomb(string message)
-        {
-            if (message == "0")
-            {
-              value = -1;  
-            }
-            //return
+        // public void IsBomb(string message)
+        // {
+        //     if (message == "0")
+        //     {
+        //       value = -1;  
+        //     }
+        //     //return
             
-        }
+        // }
 
-        public void IsGem(string message)
-        {
-            if (message == "*")
-            {
-              value = -1;  
-            }
-            //return
-        }
+        // public void IsGem(string message)
+        // {
+        //     if (message == "*")
+        //     {
+        //       value = -1;  
+        //     }
+        //     //return
+        // }
        
         
     }
